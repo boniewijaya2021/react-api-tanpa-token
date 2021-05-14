@@ -1,6 +1,7 @@
-# EasyNotes Application
+Code DIsadur dari https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/
 
-Build a Restful CRUD API for a simple Note-Taking application using Node.js, Express and MongoDB.
+
+# Hasil Belajar Tentang restfull api
 
 ## Steps to Setup
 
@@ -15,10 +16,13 @@ npm install
 ```bash
 node server.js
 ```
+run program di localhost:3000
 
-You can browse the apis at <http://localhost:3000>
-
-## Tutorial
-You can find the tutorial for this application at [The CalliCoder Blog](https://www.callicoder.com) - 
-
-<https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/>
+sebelumnya cek apakah sudah menginstall monggodb
+setelah instal 
+buat direktori easy-note
+mkdir easy-note
+lalu jalankan 
+mongod --dbpath easy-note
+lalu jalankan
+sudo service mongodb start
